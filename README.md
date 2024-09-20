@@ -40,9 +40,12 @@ Set the PRIVATE_KEY_LOCAL variable of your Executor, Replace with your privateke
 ```
 export PRIVATE_KEY_LOCAL=<replace your privatekey>
 ```
+### Set Networks
+```
+export ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,optimism-sepolia,l1rn'
+```
 ### Start Node
 ```
 ./executor
 ```
-export ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,optimism-sepolia,l1rn'
-Take a screenshot and post it on discord to get a role.
+Take a screenshot of running node and post it on discord to get a role.
