@@ -7,11 +7,12 @@ Task : https://app.galxe.com/quest/t3rn/GC2NYtzDN6
 ### Update and upgrade system packages
 ```
 sudo apt update
-sudo apt -y upgrade
+sudo apt upgrade
 ```
 ### Install fonts
 ```
-sudo wget -O /usr/share/figlet/starwars.flf https://raw.githubusercontent.com/xero/figlet-fonts/master/starwars.flf
+sudo apt-get install figlet
+figlet -f /usr/share/figlet/starwars.flf
 ```
 ### Download t3rn binaries
 ```
