@@ -50,4 +50,27 @@ export ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,optimism-sepolia,l1rn'
 ```
 ./executor
 ```
+### creating servive file
+
+sudo tee /etc/systemd/system/executor.service > /dev/null << EOF
+[Unit]
+Description=Executor Node Service
+After=network.target
+
+[Service]
+WorkingDirectory=/root/executor/executor/bin
+ExecStart=/root/executor/executor/bin/executor
+Environment="NODE_ENV=testnet"
+Environment="LOG_LEVEL=debug"
+Environment="LOG_PRETTY=false"
+Environment="PRIVATE_KEY_LOCAL=<replace_your_private_key_here>"
+Environment="ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,optimism-sepolia,l1rn'"
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+
+
 Take a screenshot of running node and post it on discord to get a role.
