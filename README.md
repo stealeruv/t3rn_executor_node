@@ -51,7 +51,7 @@ export ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,optimism-sepolia,l1rn'
 ./executor
 ```
 ### creating servive file
-
+```
 sudo tee /etc/systemd/system/executor.service > /dev/null << EOF
 [Unit]
 Description=Executor Node Service
@@ -70,7 +70,19 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target
 EOF
+```
 
+### start node
+```
+sudo systemctl daemon-reload
+sudo systemctl enable executor.service
+sudo systemctl start executor.service
+sudo systemctl status executor.service
+```
+#Check logs
+```
+sudo journalctl -u executor.service -f -n 50
+```
 
 
 Take a screenshot of running node and post it on discord to get a role.
