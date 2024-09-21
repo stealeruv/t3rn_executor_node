@@ -14,6 +14,7 @@ Join the network as an Executor to process transactions and engage in the ecosys
 Explore cross-chain swaps with our intuitive Bridge UI. Now live on testnets, it enables fast, secure, and cost-efficient cross-chain transactions.
 
 Task : https://app.galxe.com/quest/t3rn/GC2NYtzDN6
+[Answers : C, A, D, C]
 
 Faucet : https://faucet.brn.t3rn.io/
 
