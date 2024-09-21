@@ -1,9 +1,10 @@
-# t3rn_executor_node
+# T3rn_executor_node
 Setting up T3RN Executor node on VPS
 
 Welcome to t3rn, a Modular Interoperability Layer designed for fast, secure, and cost-efficient cross-chain swapping. t3rn is uniquely positioned to bridge the gaps in blockchain interoperability, offering superior swapping for users and yield for infra providers by becoming t3rn Executors.
 
 Docs : [t3rn docs](https://docs.t3rn.io/intro) | X : [t3rn](https://x.com/t3rn_io)
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### Getting Started with t3rn:
 #### Participate as an Executor:
@@ -17,6 +18,7 @@ Task : https://app.galxe.com/quest/t3rn/GC2NYtzDN6
 Faucet : https://faucet.brn.t3rn.io/
 
 Bridge : https://bridge.t1rn.io 
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 # Join Crypto Console Community
