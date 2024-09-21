@@ -2,9 +2,9 @@
 Setting up T3RN Executor node on VPS
 
 
-Task : https://app.galxe.com/quest/t3rn/GC2NYtzDN6
-Faucet : https://faucet.brn.t3rn.io/
-Bridge : https://bridge.t1rn.io
+Task : https://app.galxe.com/quest/t3rn/GC2NYtzDN6 |
+Faucet : https://faucet.brn.t3rn.io/ |
+Bridge : https://bridge.t1rn.io |
 
 ### Update and upgrade system packages
 ```
