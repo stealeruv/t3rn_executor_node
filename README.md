@@ -42,7 +42,7 @@ figlet -f /usr/share/figlet/starwars.flf
 ```
 ### Download t3rn binaries
 ```
-curl -L -o executor-linux-v0.21.0.tar.gz https://github.com/t3rn/executor-release/releases/download/v0.21.0/executor-linux-v0.21.0.tar.gz
+curl -L -o executor-linux-v0.21.1.tar.gz https://github.com/t3rn/executor-release/releases/download/v0.21.1/executor-linux-v0.21.1.tar.gz
 ```
 ### Extract 
 ```
