@@ -44,6 +44,10 @@ figlet -f /usr/share/figlet/starwars.flf
 ```
 curl -L -o executor-linux-v0.21.0.tar.gz https://github.com/t3rn/executor-release/releases/download/v0.21.0/executor-linux-v0.21.0.tar.gz
 ```
+### Extract 
+```
+tar -xzvf executor-linux-v0.21.1.tar.gz
+```
 ```
 cd executor/executor/bin
 ```
