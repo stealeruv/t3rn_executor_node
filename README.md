@@ -51,7 +51,6 @@ curl -L -o executor-linux-${LATEST_VERSION}.tar.gz $EXECUTOR_URL
 tar -xzvf executor-linux-${LATEST_VERSION}.tar.gz
 rm -rf executor-linux-${LATEST_VERSION}.tar.gz
 cd executor/executor/bin
-
 ```
 
 ### Open screen 
