@@ -39,18 +39,21 @@ sudo apt upgrade
 ```
 sudo apt-get install figlet
 figlet -f /usr/share/figlet/starwars.flf
+
 ```
 ### Download t3rn binaries
 ```
 LATEST_VERSION=$(curl -s https://api.github.com/repos/t3rn/executor-release/releases/latest | grep 'tag_name' | cut -d\" -f4)
 EXECUTOR_URL="https://github.com/t3rn/executor-release/releases/download/${LATEST_VERSION}/executor-linux-${LATEST_VERSION}.tar.gz"
 curl -L -o executor-linux-${LATEST_VERSION}.tar.gz $EXECUTOR_URL
+
 ```
 ### Extract 
 ```
 tar -xzvf executor-linux-${LATEST_VERSION}.tar.gz
 rm -rf executor-linux-${LATEST_VERSION}.tar.gz
 cd executor/executor/bin
+
 ```
 
 ### Open screen 
@@ -65,6 +68,7 @@ export NODE_ENV=testnet
 ```
 export LOG_LEVEL=debug
 export LOG_PRETTY=false
+
 ```
 ### PRIVATE KEYS
 Set the PRIVATE_KEY_LOCAL variable of your Executor, Replace with your privatekey
